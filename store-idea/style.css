@@ -1,0 +1,92 @@
+@media screen and (min-width: 481px) {
+body {
+	margin: 0px;
+	padding: 0px;
+	height: 100%;
+	font-size:12px;
+    background: #f8f8f8;
+    font-family: Helvetica, Arial, sans-serif;
+    text-align: center;
+    color: #fff;
+	background: url(img/backgrounds/1.jpg) center center no-repeat;
+	background-size:cover;
+	background-attachment:fixed;
+}
+}
+@media screen and (max-width: 480px) {
+body {
+	margin: 0px;
+	padding: 0px;
+	height: 100%;
+	font-size:5px;
+    background: #f8f8f8;
+    font-family: Helvetica, Arial, sans-serif;
+    text-align: center;
+    color: #fff;
+	background: url(img/backgrounds/2.jpg) center center no-repeat;
+	background-size:cover;
+	background-attachment:fixed;
+}
+}
+form {
+    width: 40em;
+    margin: 1.5em auto 0 auto;
+    text-align: center;
+}
+input {
+    width: 27em;
+    height: 4.2em;
+    text-align: right ;
+    margin-top: 1.5em;
+    padding: 0 1.5em;
+    background: rgba(45,45,45,.15);
+    border-radius: 6px;
+    border: 1px solid rgba(255,255,255,.15);
+    box-shadow: 0 2px 3px 0 rgba(0,0,0,.1) inset;
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 1.4em;
+    color: #fff;
+    text-shadow: 0 1px 2px rgba(0,0,0,.1);
+	transition:all .2s;
+}
+input::-webkit-input-placeholder { color: #fff; }
+button {
+	cursor: pointer;
+    width: 27em;
+    height: 4.4em;
+    margin-top: 2.5em;
+    padding: 0;
+    background: #ef4300;
+    border-radius: 6px;
+    border: 1px solid #ff730e;
+    box-shadow:
+        0 15px 30px 0 rgba(255,255,255,.25) inset,
+        0 2px 7px 0 rgba(0,0,0,.2);
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 1.4em;
+    font-weight: 70em;
+    color: #fff;
+    text-shadow: 0 1px 2px rgba(0,0,0,.1);
+    transition: all .2s;
+}
+a {
+    display: inline-block;
+    width: 35px;
+    height: 35px;
+    margin-top: 15px;
+    transition: all .2s;
+}
+.pic {
+	background:url(img/icon/avatar.png);
+	border:solid #000 thick;
+	alignment-baseline:central;
+    width: 25.5em;
+    height: 25.5em;
+	cursor: pointer;
+	margin: 0px;
+	padding: 0px;
+	border-radius: 50%;
+}
+
+a:hover { background-position: center bottom; }
+
